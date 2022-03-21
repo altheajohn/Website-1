@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>E. Byjoe Creations</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="image/E.Byjoe Creations Logo 3.png" alt="E.Byjoe Creations logo" style=height:300px
+       />
+
+      <!-- Add a custom image logo here for the creation -->
+    </header>
+
+    <div class="row">
+  <div class="column">
+    <img src="image/coralset.jpg" alt="coralset" style="width: 100% ">
+  </div>
+  <div class="column">
+    <img src="image/butterflybracelets.jpg" alt="butterflybracelets" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/blueset.jpg" alt="blueset" style="width:100%">
+  </div>
+</div>
+
+<br>
+
+
+    <div class="introduction">
+      <!-- New order form -->
+
+      <h1>Welcome!</h1>
+
+      <h3>Customer Order Form</h3>
+      <p>Please fill out the below for a quote on your order.</p>
+
+      <p>
+        * All sets are made with Sterling Sliver with the following choice of
+        stones: Stabilized Kingman Turquoise, Apple Coral and White Shell. If
+        you wish to customize with mixing these stones in a set or with other
+        stones please state below in the order form. 
+        <br>
+         <br>
+
+        <b> *** Please gather your jewelry
+        measurements as custom orders are NOT refundable. *** <b>
+      </p>
+
+        </div>
+    
+      <h3></h3>
+
+      <!-- INTAKE FORM  -->
+
+      <br>
+<div class="container">
+  <form id="orderform" action="https://formsubmit.co/altheajohn64@gmail.com" method="POST" 
+name=”buddy” >
+
+    <input type="hidden" name="_subject" value="New submission!">
+
+    <label for="fname">Name </label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+    <br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+<br>
+<label for="email">E-Mail</label>
+ <input type="email" name="email" placeholder="Email Address" required>
+ <br>
+
+
+    <label for="ordrefor">Who is this order for? </label>
+    <select id="person" class="box" name="person" >
+      <option value="self">Self</option>
+      <option value="someonetheyknow">Friend/Family</option>
+      <option value="Gift">It's a Gift (unknown measurements, will submit later)</option>
+    </select> 
+<br>
+<br>
+
+    <label for="subject">Order Details</label>
+    <textarea id="subject" name="subject" placeholder="Please Fill this form out sizes and a decription of what you want to order...
+
+
+    Example: Hello! I am intresed in the Coral Set, large. My ring size is 7.5 and necklace length is 24 inchs. " style="height:200px" required></textarea>
+
+
+    <input id= "sbuttn" type="submit" value="Submit">
+  </form>
+</div>
+
+<p>Note that custom order prices can increase due to market prices on sliver. See today's price below.</p>
+
+<!-- Incert Today's Sliver Market Price Here --> 
+
+<button id="ratebutton" class="rate-button" type="button">Today's Rates </button>
+
+<!-- <h2>Today's Rates </h2> -->
+<br>
+<br>
+<br>
+
+<table id="table" style="width:100%">
+  <tr>
+    <th>Date</th>
+    <th>Base</th>
+    <th>Rates</th>
+     <th>Unit</th>
+  </tr>
+  <tr>
+    <td id = "dates" ></td>
+    <td id = "base" ></td>
+    <td id = "rates" ></td>
+    <td id = "units" ></td>
+  </tr>
+ 
+  </tr>
+</table>
+      
+    </div>
+
+    <footer>
+    <div class="footer-dark">
+            <div class="column-breezy">
+                <!-- <div class="footer-rowz">   fix the colum width later  -->
+
+<!-- <div class="col-md-6 item text">
+                        <h3>E.Byjoe and G.Johnson Creations</h3>
+                        <p>Euginia Byjoe and Geneva Johnson Creations is located on the Navajo Nation. Going strong as a team for over 4 years both artisit strive to make the best custom jewelry for their customers. 
+                        <br> 
+                        <br> 
+
+<q><i><strong>When we are making these orders, we think positively about them because they are creatiions being brought to life. Whose who'll wear them feel the power in them. We love the work we do.</strong></i></q>
+
+ </p>
+                    </div> -->
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Traditional Jewelry</a></li>
+                            <li><a href="#">Custom Orders</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-sm-6 col-md-3 item">
+                        <h3>More About</h3>
+                        <ul>
+                          <li><a href="#">Euginia and Geneva</a></li>
+                            <li><a href="#">The Byjoes</a></li>
+                          
+                        </ul>
+                    </div> -->
+                    
+                    <!-- <div class="col item social">
+                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+                    <a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div> -->
+                <p class="copyright">E.Byjoe & G.Johnson Creations © 2018</p>
+            </div>
+        </footer>
+  
+
+
+  </body>
+</html>
